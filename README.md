@@ -6,7 +6,7 @@ Now let's Improve your search engine to make it support complex queries containi
 ## Objectives
 In this stage, your program should be able to use such searching strategies as ALL, ANY, and NONE.
 ### Take, for example, these six sample lines:
-Dwight Joseph djo@gmail.com
+Dwight Joseph djo@gmail.com <br>
 Rene Webb webb@gmail.com
 Katie Jacobs
 Erick Harrington harrington@gmail.com

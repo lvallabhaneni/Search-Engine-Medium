@@ -7,45 +7,45 @@ Now let's Improve your search engine to make it support complex queries containi
 In this stage, your program should be able to use such searching strategies as ALL, ANY, and NONE.
 ### Take, for example, these six sample lines:
 Dwight Joseph djo@gmail.com <br>
-Rene Webb webb@gmail.com
-Katie Jacobs
-Erick Harrington harrington@gmail.com
-Myrtle Medina
-Erick Burgess
+Rene Webb webb@gmail.com <br>
+Katie Jacobs <br>
+Erick Harrington harrington@gmail.com <br>
+Myrtle Medina <br>
+Erick Burgess <br>
 ### If the strategy is ALL, the program should print lines containing all the words from the query.
-Query:
-Harrington Erick
-Result:
-Erick Harrington harrington@gmail.com
+Query: <br>
+Harrington Erick <br>
+Result: <br>
+Erick Harrington harrington@gmail.com <br>
 ### If the strategy is ANY, the program should print the lines containing at least one word from the query.
-Query:
-Erick Dwight webb@gmail.com
-Result:
-Erick Harrington harrington@gmail.com
-Erick Burgess
-Dwight Joseph djo@gmail.com
-Rene Webb webb@gmail.com
+Query: <br>
+Erick Dwight webb@gmail.com <br>
+Result: <br>
+Erick Harrington harrington@gmail.com <br>
+Erick Burgess <br>
+Dwight Joseph djo@gmail.com <br>
+Rene Webb webb@gmail.com <br>
 ### If the strategy is NONE, the program should print lines that do not contain words from the query at all:
-Query:
-djo@gmail.com ERICK
-Result:
-Katie Jacobs
-Myrtle Medina
-Rene Webb webb@gmail.com
+Query: <br>
+djo@gmail.com ERICK <br>
+Result: <br>
+Katie Jacobs <br>
+Myrtle Medina <br>
+Rene Webb webb@gmail.com <br>
 ### All listed operations are implemented in the inverted index. The results should not contain duplicates.
 ### Do not forget to use methods to decompose your program.
 ### Example
-The lines that start with > represent the user input. Note that these symbols are not part of the input.
-=== Menu ===
-1. Find a person
-2. Print all persons
-0. Exit
-> 1
-Select a matching strategy: ALL, ANY, NONE
-> ANY
-Enter a name or email to search all suitable people.
-> Katie Erick QQQ
-3 persons found:
-Katie Jacobs
-Erick Harrington harrington@gmail.com
-Erick Burgess
+The lines that start with > represent the user input. Note that these symbols are not part of the input. <br>
+=== Menu === <br>
+1. Find a person <br>
+2. Print all persons <br>
+0. Exit <br>
+> 1 <br>
+Select a matching strategy: ALL, ANY, NONE <br>
+> ANY <br>
+Enter a name or email to search all suitable people. <br>
+> Katie Erick QQQ <br>
+3 persons found: <br>
+Katie Jacobs <br>
+Erick Harrington harrington@gmail.com <br>
+Erick Burgess <br>

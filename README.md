@@ -1,5 +1,5 @@
 # Search-Engine-Medium
-The solution for medium level problem
+The solution for medium level problem.
 The description for the problem is:
 ## Description
 Now let's Improve your search engine to make it support complex queries containing word sequences and use several strategies that determine how to match data.
